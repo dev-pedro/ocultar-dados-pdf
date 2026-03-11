@@ -53,8 +53,10 @@ python app.py
 
 ## Como Gerar o Executável (.exe) Opcional
 
-Caso queira gerar um aplicativo de janela nativo do Windows:
+Se você for um desenvolvedor e quiser gerar o aplicativo por conta própria:
 
 1. Instale o PyInstaller (`pip install pyinstaller`)
 2. Execute o comando: `pyinstaller --noconfirm --onedir --windowed --hidden-import "customtkinter" --name "OcultarDadosPDF"  "app.py"`
 3. O app compilado ficará na pasta `dist/OcultarDadosPDF`.
+
+> **Nota para os usuários leigos:** Já incluímos uma versão compilada prontinha do aplicativo! Basta baixar o arquivo `OcultarDadosPDF.exe` que está dentro da pasta `release/` clicando nele e depois em Download.
