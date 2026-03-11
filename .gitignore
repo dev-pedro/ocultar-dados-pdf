@@ -1,0 +1,42 @@
+# Ignorar ambientes virtuais
+venv/
+env/
+.env
+
+# Ignorar arquivos temporarios do Python e caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignorar arquivos gerados pelo PyInstaller
+*.manifest
+*.spec
+
+# Ignorar pastas de teste locais / pastas de saida
+pdf/
+pdf_oculto/
+
+# Ignorar configurações do SO / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
